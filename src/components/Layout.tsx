@@ -33,8 +33,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       path: "/bookkeeping",
       subItems: [
         { title: "Accounts", icon: FileText, path: "/bookkeeping/accounts" },
-        { title: "Bye-Laws", icon: List, path: "/bookkeeping/bye-laws" },
-        { title: "GBM Minutes", icon: Clock, path: "/bookkeeping/gbm-minutes" },
       ]
     },
   ];
